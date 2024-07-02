@@ -1,0 +1,289 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+
+a{
+    text-decoration: none;
+    
+    font-size: 14px;
+  
+}
+.top-bar{
+      background-color: #CBDAD0;
+}
+
+.top-bar .row .col {
+    text-align: center;
+  
+    height:60px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.header .row{
+    padding-top: 10px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header .logo{
+    display: flex;
+    flex-direction: row;
+}
+.header .icon{
+    font-size: 35px;
+   
+}
+.header .row h2 a{
+    color: black ;
+}
+.header .row ul {
+   
+    display: flex;
+    justify-content: space-between;
+}
+.header .row ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+   
+   
+}
+.header .row ul li a{
+    color: black;
+}
+.header .row i{
+    font-size: 40px;
+    display: none;
+}
+.header .row button{
+    float: right;
+
+    padding-top: 3px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+.header .row button a{
+    color: white;
+}
+#design{
+
+     margin-top: -66px;
+     margin-bottom: 100px;
+}
+#design .row .text p{
+    padding: 440px 150px 100px 70px;
+    font-size: 55px;
+    line-height: 63px;
+    font-weight: 900px;
+}
+#design .row .image {
+   
+    z-index: -1;
+    padding-left: 0px;
+    overflow: hidden;
+    padding: 0px;
+    
+   
+} 
+#design .row .image img{
+float: right;
+}
+#product .row{
+    display: flex;
+
+}
+#product .image{
+
+  
+    overflow: hidden;
+    padding-left: 0px;
+}
+#natural .image{
+overflow: hidden;
+}
+
+#product .row .text,
+#natural .row .text 
+{
+    padding: 150px 140px 200px 133px;
+}
+#product .row .text h1,
+#natural .row .text h1{
+     font-size: 50px;
+    font-weight: 400px;
+}
+#product .row .text p,
+#natural .row .text p{
+   padding-top: 40px;
+   font-size: 18px;
+   font-weight: 400px;
+}
+#product .row .text button,
+#natural .row .text button{
+margin-top: 55px;
+width: 170px;
+padding: auto;
+background-color: black;
+color: white;
+height: 40px;
+}
+#better {
+background-color:#CBDAD0 ;
+}
+#better .row h1 
+ {    font-size: 58px;
+      padding: 160px 0px 30px 130px;
+}
+#better .row p{
+    padding-left:130px ;
+    padding-bottom: 130px;
+}
+#better .row .image
+{
+ margin-top: 160px; 
+ 
+}
+#better .row .image h5{
+padding-left: 35px;
+padding-bottom: 12px;
+
+
+}
+#better .row .icon{
+    font-size: 50px;
+}
+#better .row .image p{
+    padding-left: 35px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+
+}
+#better .row .image .one{
+    display: flex;
+    flex-direction: row;
+}
+#join{
+    background-color: #223641;
+}
+#join .row h1{
+padding: 160px 100px 60px 130px;
+justify-content: baseline;
+    color: white;
+
+}
+#join .row p{
+padding: 170px 60px 0px 90px;
+justify-content: baseline;
+    color: white;
+
+}
+#join .row .button1{
+margin: 45px 30px 45px 90px ;
+
+background-color: white;
+border: none;
+width: 100px;
+height: 30px;
+
+}
+#join .row .button1 a{
+    color: black;
+}
+#join .row button{
+background-color: #223641;
+border: solid 1px gray;
+width: 100px;
+height: 30px;
+}
+#join .row button a{
+    color: white;
+}
+#join .row .image{
+ overflow: hidden;
+ float: right;
+
+}
+#latest .row1 h1{
+    padding: 160px 0px 70px 0px;
+}
+#latest .row2 .col {
+    margin: 30px 10px;
+    padding:30px ;
+}
+#latest .row2 h6 {
+
+    padding-bottom:20px ;
+}
+#latest .row2 p {
+
+    padding:15px 30px 50px 0px;
+    text-align: justify;
+}
+#latest .row2 button{
+    width: 100px;
+    height: 25px;
+    padding: auto;
+    border: 1px solid gray;
+    background-color: white;
+  margin-bottom: 100px;
+}
+#latest .row2 button a{
+    color: black;
+}
+#skincare .image{
+    background-image: url("images/skincare.png");
+    background-repeat: no-repeat;
+}
+#skincare .row .text {
+    padding: 150px 100px 200px 133px;
+    background-color: #6F665C
+    ;
+}
+#skincare .row .text h1{
+    font-size: 62px;
+   font-weight: 400px;
+   color: white;
+}
+#skincare .row .text button{
+    margin-top: 55px;
+    width: 170px;
+    padding: auto;
+    background-color: white;
+    color: black;
+    height: 40px;
+    border: none;
+    }
+    .footer{
+        background-color: black;
+    }
+    .footer .row1 .col{
+        margin-top: 130px;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .row2{
+        margin-top: 50px;
+        margin-bottom: 50px;
+       }
+       .footer .row1  .col i,
+    .footer .row1  .col h6 a,
+    .footer .row2  h2,
+    .footer .row2 ul li a{
+        color:white;
+    }
+    .footer ul li{
+        padding-bottom: 7px;
+    }
+    hr{
+        color: #2b894a;
+    }

@@ -1,0 +1,220 @@
+@media screen and  (max-width:992px){
+    .header .row1 .list {
+        flex-direction: column;
+        display: none;
+        margin-top: 50px;
+        margin-left:397px;
+        z-index: 3;
+        position: absolute;
+        
+    }
+    .header .row1 ul li{
+        height: 80px;
+        width: 300px;
+        background-color: rgb(204, 205, 209);
+        padding-top: 30px;
+        text-align: center;
+        border-bottom: 2px solid rgb(176, 137, 137);
+    }
+    .header .row1 ul li:hover{
+        background-color: rgb(197, 163, 163);
+       
+    }
+    .header .row i{
+    font-size: 40px;
+    display: block;
+    float: right;}
+
+    .header .row button{
+        display: none;
+    }
+    #design{
+        margin-top: -70px;
+    }
+    #design .row .text p{
+        padding-top: 350px;
+    }
+    #product .row .text,
+    #natural .row .text {
+        padding-top: 100px;
+        padding-right: 120px;
+    }
+    #better{
+        margin-top: 40px;
+    }
+    #better .row h1 ,
+    #better .row p{
+        padding-left: 110px;
+        padding-right: 30px;
+    }
+}
+@media screen and  (max-width:769px){
+    .header .row1 .list{
+        margin-left: 230px;
+    }
+    #design .row .text p{
+        padding: 400px 50px 70px 50px;}
+        #product .row .text,
+#natural .row .text {
+    padding-left:70px  ;
+    padding-right: 30px;
+}
+
+#better .row h1
+,#better .row p {padding-left: 70px;}
+#join .row h1{
+    padding-left: 70px;
+    padding-right: 30px;
+}
+#join .row p{
+    padding-left: 40px;
+}
+#join .row .button1{
+    margin-left: 33px;
+}
+#skincare .row .text {
+    padding-left: 70px;
+}
+#skincare .row .text h1{
+    font-size: 45px;
+}
+}
+@media screen and  (max-width:426px)
+{
+    .top-bar{
+        height: 90px;
+    }
+    .header .row1 .list{
+       margin-left: 110px;
+      
+       height: 300px;
+       flex-direction: column;
+    }
+    .header .row1 ul li{
+        height: 50px;
+        width: 140px;
+    padding: 5px;}
+  
+  
+    #design .row .text p{
+        padding: 100px 40px;
+        line-height: 40px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #design .row .image{
+        height: 300px;
+    }
+    #product .row{
+        flex-direction: column-reverse;
+    }
+    #product .row .image
+   {
+        height: 300px;
+    }
+    #natural .row .image{
+        height: 300px;
+        width: 100%;
+        padding-left: 0px;  }
+        #product .row .text
+
+  {  padding: 70px 30px 30px 40px;
+}
+#natural .row .text 
+{
+   
+    padding: 70px 30px 70px 40px;
+}
+#product .row .text h1,
+#natural .row .text h1{
+     font-size: 30px;
+    font-weight: 400px;
+}
+#better{
+    margin-top: 0px;
+    
+}
+#better .row h1 {
+    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 0px;
+
+    font-size: 30px;
+}
+#better .row p{
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
+
+}
+#better .row .image{
+    margin-top: 60px;
+}#join .row h1{
+    padding: 70px 100px 30px 40px;
+}
+#join .row p{
+    padding: 0px 30px 30px 40px;
+}
+#join .row .button1{
+    margin-top: 20px;
+}
+#join .row .image{
+    height: 300px;
+    width: 100%;
+}
+#latest .row1{
+    padding-left: 0px;
+}
+#latest .row1 h1{
+    padding: 70px 0px 20px 0px;
+    
+}
+#latest .row2 .col-md{
+    margin-top:20px
+}
+#latest .row2 h6 {padding-bottom: 10px;}
+#latest .row2 p {
+    padding-bottom: 10px;
+}
+#latest .row2 button{
+    margin-bottom: 50px;
+}
+#skincare .row .text {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+#skincare .row .text h1{
+    font-size: 30px;
+}
+.footer .row1 .col{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.footer .row2{
+    margin: 20px 0px;
+    
+}
+.footer .row1  .col h2{
+    padding-bottom: 0px;
+}
+.footer .row2  h2{
+    padding-bottom: 30px;
+}
+}
+@media screen and  (max-width:426px){
+
+#join .image img{
+    width: 100%;
+   margin-left: 15px;
+}
+
+
+}
+@media screen and  (max-width:376px){
+    .header .row1 ul{
+        padding-top: 10px;
+          padding-left: 10px;
+          width: 10%;
+          height: auto;
+      }
+}
